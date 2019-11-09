@@ -14,11 +14,12 @@ add_definitions(${LLVM_DEFINITIONS})
 
 # Set source file(s).
 file(GLOB_RECURSE SOURCES
+    "src/*.h",
     "src/*.cpp"
 )
 
 # Specify that this project is a library.
-add_library(${PROJECT_NAME} ${SOURCES})
+add_executable(${PROJECT_NAME} ${SOURCES})
 
 # Provide include directories to be used in the build command. Position in file matters.
 #target_include_directories(${PROJECT_NAME} PRIVATE "src")

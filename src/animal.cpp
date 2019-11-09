@@ -3,9 +3,14 @@
 
 namespace playground
 {
+Animal::Animal(std::string name) : Entity(name)
+{
+    //
+}
+
 std::string Animal::getName() const
 {
-    return "Generic animal";
+    return this->name;
 }
 
 void Animal::say(std::string message)
