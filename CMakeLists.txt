@@ -14,7 +14,7 @@ add_definitions(${LLVM_DEFINITIONS})
 
 # Set source file(s).
 file(GLOB_RECURSE SOURCES
-    "src/*.h",
+    "src/*.h"
     "src/*.cpp"
 )
 
