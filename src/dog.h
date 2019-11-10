@@ -1,3 +1,5 @@
+#pragma once
+
 #include "animal.h"
 
 namespace playground

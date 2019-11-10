@@ -1,3 +1,5 @@
+#pragma once
+
 #include <string>
 
 namespace playground
@@ -11,5 +13,7 @@ public:
     Entity(std::string name);
 
     virtual std::string getName() const = 0;
+
+    void forceTest(Animal a);
 };
 } // namespace playground
