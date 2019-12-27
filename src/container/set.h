@@ -34,8 +34,6 @@ namespace playground {
 
     void clear() {
         // TODO: Implement.
-
-        return false;
     }
 };
 }
