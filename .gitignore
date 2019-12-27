@@ -5,3 +5,9 @@ CMakeCache.txt
 *.cmake
 Debug/
 *.dir/
+Makefile
+build/
+*.exe
+*.cbp
+.idea/
+install_manifest.txt

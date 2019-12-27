@@ -1,10 +1,8 @@
-#include "dog.h"
+#include <iostream>
+#include "animal/animal.h"
 
-using namespace playground;
+int main() {
+    Animal animal
 
-void main()
-{
-    Dog pup = Dog("Pupper");
-
-    pup.bark();
+    return 0;
 }
